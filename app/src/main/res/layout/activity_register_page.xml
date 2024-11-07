@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".logica.RegisterPage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewContact"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/baseline_tag_faces_24"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSelectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="Seleccionar imagen"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="12sp"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#8F8F8F"
+        android:textColor="@color/black"
+        android:hint="Ingrese su nombre"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#8F8F8F"
+        android:textColor="@color/black"
+        android:hint="Ingrese su apellido"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#8F8F8F"
+        android:textColor="@color/black"
+        android:hint="Ingrese su # de identificación"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#8F8F8F"
+        android:textColor="@color/black"
+        android:hint="Ingrese su correo electrónico"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="#8F8F8F"
+        android:hint="Ingrese su contraseña"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="Crear cuenta"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:padding="10dp"
+        android:textSize="12sp"/>
+
+</LinearLayout>

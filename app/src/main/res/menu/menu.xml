@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuLogOut"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="LogOut"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menuEstado"
+        android:title="Cambio disponibilidad" />
+    <item
+        android:id="@+id/menuDisponibles"
+        android:title="Usuarios Disponibles" />
+</menu>
