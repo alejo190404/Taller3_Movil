@@ -1,7 +1,9 @@
-Nombre del grupo: Los Fans de Oscar
+# Taller #3 de Los Fans de Oscar
 
-Nombres de los integrantes:
+## Nombre del Grupo
+Los Fans de Oscar
 
-Daniel Carvajal
-Nicolas Ramírez
-Alejandro Barragán
+## Integrantes
+- Daniel Carvajal
+- Nicolás Ramírez
+- Alejandro Barragán
